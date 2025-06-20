@@ -20,7 +20,9 @@ span {
 .l {
     color:#8845DD
 }
-
+hr {
+    color: #100000;
+}
 /* the viewport */
 
 @media (min-width: 481px) {
