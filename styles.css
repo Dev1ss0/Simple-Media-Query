@@ -1,0 +1,58 @@
+/* the actual css */
+body {
+    background-color: #F9F6EE;
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+    justify-content: left;
+    margin-left: 4rem;
+}
+span {
+    color: red;
+    font-weight: bold !important;
+}
+.c {
+    color: #b00b13;
+}
+.o {
+    color:#34DD00
+}
+.l {
+    color:#8845DD
+}
+
+/* the viewport */
+
+@media (min-width: 481px) {
+    body {
+        background-color: #b00b13;
+    }
+    span{
+        color: #34DD00;
+    }
+    .c {
+        color: #FFFFFF;
+    }
+}
+@media (min-width: 2400px) {
+    body {
+        background-color: #8845DD;
+    }
+    .l {
+        color: #FFFFFF;
+    }
+    .c {
+        color:#b00b13
+    }
+    span {
+        color: #34DD00;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        background-color: #34DD00;
+    }
+    .o {
+        color: #FFFFFF;
+    }
+}
